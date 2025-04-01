@@ -1,0 +1,104 @@
+@font-face {
+    src: url(/Fonts/Poppins-Regular.ttf);
+    font-family: Poppins;
+}
+
+@font-face {
+    src: url(/Fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+    font-family: "Open Sans";
+}
+
+/* h1 {
+    font-family: Poppins;
+    border-style: solid;
+    border-width: 3px;
+    border-color: crimson;
+    border: 3px solid crimson;
+    border-radius: 20px;
+} */
+
+/* h1:hover {
+    text-shadow: 3px 3px 5px crimson, -3px -3px 5px rgb(94, 41, 241);
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(234, 234, 234);
+    scale: 50%;
+}
+
+#box1:hover {
+    scale: 100%;
+    box-shadow: 3px 3px 5px, -3px -3px 5px;
+} */
+
+/* p {
+    font-family: "Open Sans";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 3px dotted red;
+    border-top: 3px solid tomato;
+} */
+
+/* body {
+    margin: 0px;
+}
+
+.box {
+    border: 5px solid;
+    font-size: 4em;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
+#box1 {
+    background-color: crimson;
+}
+
+#box2 {
+    background-color: lightsalmon;
+} */
+
+/* body {
+    border: 3px solid black;
+    display: flow-root;
+}
+
+#img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#img2 {
+    float: right;
+    margin-left: 10px;
+} */
+
+/* #box {
+    border: 2px solid;
+    height: 75px;
+    overflow: visible;
+    overflow: auto;
+    overflow: scroll;
+    overflow: hidden;
+    overflow: clip;
+    overflow-clip-margin: 13px;
+}  */
+/* 
+div {
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+span {
+    background-color: lightskyblue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+} */

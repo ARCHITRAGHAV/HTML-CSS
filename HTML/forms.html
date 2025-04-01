@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="index.php" method="POST" enctype="multipart/form-data" style="border: 2px solid; padding: 5px;">
+
+        <!-- Text Input -->
+
+        <label for="username">username: </label>
+        <input type="text" id="username" placeholder="Archit" minlength="6" maxlength="15" required>
+        <br><br>
+
+        <!-- Password Input -->
+
+        <label for="password">password: </label>
+        <input type="password" id="password" required>
+        <br><br>
+
+        <!-- email Input -->
+
+        <label for="email">email: </label>
+        <input type="email" id="email" placeholder="archit@gmail.com" required>
+        <br><br>
+
+        <!-- Telephone Number Input -->
+
+        <label for="phone">phone: </label>
+        <input type="tel" id="phone" placeholder="123-456-7896" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br><br>
+
+        <!-- Date Input -->
+
+        <label for="bday">dob: </label>
+        <input type="date" id="bday">
+        <br><br>
+
+        <!-- Number Input -->
+
+        <label for="quantity">quantity: </label>
+        <input type="number" min="1" max="80" id="quantity" value="1">
+        <br><br>
+
+        <!-- Radio Buttons -->
+
+        <label for="title">title: </label>
+
+        <label for="mr.">Mr.</label>
+        <input type="radio" id="mr." name="title">
+        <label for="mrs.">Mrs.</label>
+        <input type="radio" id="mrs." name="title">
+        <label for="phd.">PhD.</label>
+        <input type="radio" id="phd." name="title">
+        <br><br>
+
+        <!-- Dropdown Menu -->
+
+        <label for="payment">payment mode: </label>
+        <select id="payment">
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">Mastercard</option>
+        </select>
+        <br><br>
+
+        <!-- Checkbox -->
+
+        <label for="subscribe">Subscribe</label>
+        <input type="checkbox" id="subscribe">
+        <br><br>
+
+        <!-- Text Area -->
+
+        <label for="comment">comment: </label>
+        <textarea id="comment" rows="3" cols="25"></textarea>
+        <br><br>
+
+        <!-- File Upload -->
+        <label for="file">Upload the file: </label>
+        <input type="file" id="file" accept="image/png, image/jpeg">
+        <br><br>
+
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
