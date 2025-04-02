@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/Fonts/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: Poppins;
+    background-color: #f9f9f9;
+}
+
+#box {
+    margin: 2vw;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+
+}
+
+#box:hover {
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1), -10px -10px 10px white;
+}
