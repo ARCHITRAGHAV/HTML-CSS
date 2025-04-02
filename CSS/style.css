@@ -102,3 +102,99 @@ span {
     height: 100px;
     display: inline-block;
 } */
+
+/* .container {
+    background-color: grey;
+    height: 100vh;
+}
+
+.box {
+    background-color: #fff;
+    border: 2px solid;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    padding: 25px;
+    text-align: center;
+    min-height: 50%;
+    min-width: 75%; 
+} */
+
+/* #box1 {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    position: sticky;
+    top: 0px;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(42, 15, 197);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+} */
+
+/* body {
+    background-image: url(https://plus.unsplash.com/premium_photo-1674406763863-b64be22c78a9?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+/* #container {
+    border: 2px solid;
+}
+
+#container + p {
+    background-color: yellow;
+} */
+
+/* a:link {
+    font-size: 1.5em;
+    font-family: Poppins, sans-serif;
+    color: crimson;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(47, 9, 119);
+}
+
+a:hover {
+    font-size: 2em;
+    color: rgb(27, 2, 7);
+}
+
+a:active {
+    color: blue;
+} */
+
+/* li:hover {
+    background-color: crimson;
+    color: white;
+} */
+
+/* li:not(:hover){
+    background-color: rgb(150, 150, 150);
+} */
+
+/* li:nth-child(1):hover{
+    background-color: salmon;
+} */
+
+/* div {
+    display: inline;
+}
+
+div p {
+    display: none;
+}
+
+div:hover p {
+    display: block;
+} */
